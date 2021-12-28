@@ -28,5 +28,12 @@ pipeline {
                 }
             
         }
+        stage ('QA Stage') {
+            steps {
+                
+                    echo "This is QA branch"
+                }
+            
+        }
     }
 }

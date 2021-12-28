@@ -28,5 +28,13 @@ pipeline {
                 }
             
         }
+        
+         stage ('dev Stage') {
+            steps {
+                
+                    echo "This is Dev branch"
+                }
+            
+        }
     }
 }

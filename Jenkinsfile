@@ -28,5 +28,13 @@ pipeline {
                 }
             
         }
+        
+        stage ('master Stage') {
+            steps {
+                
+                    echo "This is Master branch"
+                }
+            
+        }
     }
 }
